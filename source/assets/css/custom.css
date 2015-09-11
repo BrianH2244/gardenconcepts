@@ -1,5 +1,205 @@
 /* Add here all your css styles (customizations) */
 
-.autocenter {
-    margin: 0 auto;
+html { font-size: 62.5%; }
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 26px; font-size: 2.6rem; } /* =24px */
+h2   { font-size: 20px; font-size: 2.0rem; } /* =20px */
+p    { font-size: 16px; font-size: 1.6rem; } /* =16px */
+footer p { font-size: 14px; font-size: 1.4rem; } /* =14px */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
+
+header h1 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+h2 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight:600;
+}
+
+p {
+    font-size: 16px;
+}
+
+.service-block p {
+    font-size:14px;
+    line-height: 1.6em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.autocenter {
+    margin:0 auto;
+}
+
+.clear {
+    clear:both;
+}
+
+.promo-text-contact {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.promo-section-contact h1 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1.1;
+  font-weight: 400;
+  padding: 10px 75px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.left {
+    text-align: left;
+}
+
+.services-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  text-align: left;
+}
+.services-section h1 {
+  color: #fff;
+  font: 28px "Open Sans",sans-serif;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+}
+.services-section li {
+  list-style-type: disc;
+}
+
+
+.contacts-section2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  text-align: left;
+}
+.contacts-section2 h1 {
+  color: #fff;
+  font: 28px "Open Sans",sans-serif;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+}
+.contacts-section2 .lead {
+  font-size: 16px;
+}
+.contacts-section2 i {
+  float: left;
+  margin-right: 15px;
+}
+.contacts-section2 h6 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+
+.contacts-section2 p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contacts-section2 a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*Parallax Counter v4
+------------------------------------*/
+.parallax-counter-v4 {
+    z-index: 1;
+    height: auto;
+    padding: 80px 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background: url(../img/portfolio/DSC00967.JPG) 50% 0 fixed;
+}
+
+.parallax-counter-v4:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  content: " ";
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+}
+
+.parallax-counter-v4 .features {
+  width: 130px;
+  height: 130px;
+  padding: 25px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50% !important;
+  background: rgba(255,255,255,0.2);
+}
+
+.parallax-counter-v4 .features:after {
+  top: -9px;
+  left: -9px;
+  right: -9px;
+  bottom: -9px;
+  content: " ";
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #fff;
+}
+
+.parallax-counter-v4 .features span {
+  color: #fff;
+  display: block;
+  font-weight: 200;
+}
+
+.parallax-counter-v4 .features span.counter {
+  font-size: 30px;
+}
+
+.parallax-counter-v4 .features span.features-info {
+  text-transform: uppercase;
+}
+
