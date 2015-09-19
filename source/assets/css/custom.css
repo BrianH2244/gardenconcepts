@@ -56,6 +56,11 @@ hr {
     padding: 0;
 }
 
+.services-section {
+margin-bottom:0;
+padding-bottom:0;
+}
+
 .services-section li {
     padding-right:0;
     margin-right:0;
@@ -73,6 +78,9 @@ hr {
     margin-bottom: 20px;
 }
 
+.portfolio-top {
+    padding-top:40px;
+}
 .autocenter {
     margin:0 auto;
 }
@@ -109,6 +117,11 @@ hr {
   position: relative;
   text-align: center;
   margin-bottom: 30px;
+}
+
+.cube-portfolio {
+    margin-top:0;
+    padding-top:0;
 }
 
 .left {
@@ -158,8 +171,8 @@ hr {
 }
 
 .contacts-section2 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 60px;
   font-size: 15px;
   text-align: left;
 }
@@ -189,6 +202,7 @@ hr {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  text-align: left;
 }
 
 .contacts-section2 a {

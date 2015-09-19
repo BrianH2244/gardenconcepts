@@ -194,7 +194,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   z-index: 1;
   position: relative;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .title-v1 h1, 
@@ -223,6 +223,14 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
 .title-v1 p {
   font-size: 17px;
   font-weight: 200;
+}
+
+/*Heading Titles v1-contact*/
+.title-v1-contact {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /*Heading Titles v2*/
