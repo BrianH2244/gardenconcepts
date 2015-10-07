@@ -32,6 +32,8 @@
 # Helpers
 ###
 
+set :layout, false
+
 # Automatic image dimensions on image_tag helper
     activate :automatic_image_sizes
 
@@ -50,9 +52,9 @@ end
 # For custom domains on github pages
 page "CNAME", layout: false
 
-set :css_dir, 'css'
+set :css_dir, 'stylesheets'
 
-set :js_dir, 'js'
+set :js_dir, 'javascript'
 
 set :images_dir, 'img'
 
@@ -64,6 +66,11 @@ configure :build do
     # Minify Javascript on build
     activate :minify_javascript
 
+    activate :minify_html
+    
+    activate :gzip
+    activate :imageoptim
+    
     # Enable cache buster
     # activate :asset_hash
 
@@ -83,4 +90,5 @@ end
 
 set :url_root, 'http://gardenconcepts.ca'
 
-sprockets.import_asset 'jquery'
+activate :search_engine_sitemap
+

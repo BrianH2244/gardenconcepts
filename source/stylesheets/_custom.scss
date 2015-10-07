@@ -1,0 +1,82 @@
+/* Reset */
+
+html { font-size: 62.5%; }
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 26px; font-size: 2.6rem; } /* =24px */
+h2   { font-size: 20px; font-size: 2.0rem; } /* =20px */
+p    { font-size: 16px; font-size: 1.6rem; } /* =16px */
+footer p { font-size: 14px; font-size: 1.4rem; } /* =14px */
+
+/* Custom Changes */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+h2 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight:600;
+}
+
+p {
+    font-size: 16px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 5px solid #AAF5B4;
+    margin-bottom: -2px;
+    margin-top:-4px;
+    padding: 0;
+}
+
+.left {
+    text-align: left;
+}
+
+.clear-both {
+    clear:both;
+}
+
+.page-break-flower-icon {
+  height:30px;
+  color: #AAF5B4;
+  margin-bottom:-30px;
+  padding:0;
+  margin: 0 auto;
+  background: url(../img/patterns/GCflower.jpg) no-repeat;
+  background-position: center;
+}
+
+.title-services {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.portfolio-top-padding {
+    padding-top:40px;
+}

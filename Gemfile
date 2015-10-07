@@ -11,3 +11,8 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-deploy"
 gem "bootstrap-sass", require: false
 gem "jquery-middleman"
+gem 'middleman-search_engine_sitemap'
+
+gem 'font-awesome-sass', '~> 4.2.0'
+gem 'middleman-minify-html', '~>  3.4.1'
+gem 'middleman-imageoptim'
