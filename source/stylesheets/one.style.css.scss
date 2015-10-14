@@ -455,6 +455,7 @@ padding-bottom:0;
 /*Contacts Section*/
 
 .contacts-section {
+  color: #fff;
   padding-top: 35px;
   padding-bottom: 60px;
   font-size: 15px;
@@ -491,6 +492,12 @@ padding-bottom:0;
   font-weight: 400;
   text-align: left;
   padding-top: 10px;
+}
+
+span.disabledAnchor a {
+       pointer-events: none !important;
+       cursor: default;
+       color:white;
 }
 
 .contacts-side-address p {

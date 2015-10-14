@@ -91,4 +91,3 @@ end
 set :url_root, 'http://gardenconcepts.ca'
 
 activate :search_engine_sitemap
-
