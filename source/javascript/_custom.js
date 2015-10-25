@@ -33,3 +33,8 @@
 
 })(jQuery); // End of use strict
 
+
+    jQuery(document).ready(function() {
+        App.init();
+        FancyBox.initFancybox();
+    });
