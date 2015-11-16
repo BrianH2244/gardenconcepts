@@ -9,5 +9,5 @@
 //= require "_cube-portfolio-lightbox.js"
 //= require "_jqBootstrapValidation.js"
 //= require "_contact_me.js"
-//= require "_custom.js"
+//= require "_smooth-scroll.js"
 //= require "_analytics.js"

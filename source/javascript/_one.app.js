@@ -1,11 +1,3 @@
-/*
- * Template Name: Unify - Responsive Bootstrap Template
- * Description: Business, Corporate, Portfolio and Blog Theme.
- * Version: 1.8
- * Author: @htmlstream
- * Website: http://htmlstream.com
-*/
-
 var App = function() {
 
   function handleBootstrap() {
@@ -86,7 +78,7 @@ var App = function() {
       });
     });
 
-    //Collapse Navbar When It's Clickicked
+    //Collapse Navbar When It's Clicked
     $(window).scroll(function() {
       $(".navbar-collapse.in").collapse('hide');
     });
