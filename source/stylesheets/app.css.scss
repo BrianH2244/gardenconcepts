@@ -17,57 +17,6 @@ a:focus {
   text-decoration: none;
 }
 
-hr {
-  margin: 30px 0;
-}
-
-hr.hr-xs {
-  margin: 10px 0;
-}
-
-hr.hr-md {
-  margin: 20px 0;
-}
-
-hr.hr-lg {
-  margin: 40px 0;
-}
-
-/*Headings*/
-h1 {
-  font-size: 28px;
-  line-height: 35px;
-}
-h2 {
-  font-size: 24px;
-  line-height: 33px;
-}
-h3 {
-  font-size: 20px;
-  line-height: 27px;
-}
-h4 {
-  line-height: 25px;
-}
-h5 {
-  line-height: 20px;
-}
-h6 {
-  line-height: 18px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #555;    
-  margin-top: 5px;
-  text-shadow: none; 
-  font-weight: normal; 
-  font-family: "Open Sans", Arial, sans-serif;
-} 
-
-h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
-   margin-right: 5px;
-}
-
 /*Heading Titles */
 .title {
   z-index: 1;
@@ -76,41 +25,9 @@ h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
   margin-bottom: 30px;
 }
 
-.title h1, 
-.title h2 {
-  color: #444;
-  font-size: 28px;
-  position: relative;
-  margin-bottom: 15px;
-  padding-bottom: 20px;
-  text-transform: uppercase;
-  font-family: "Open Sans", Arial, sans-serif;
-}
-
-.title h1:after, 
-.title h2:after {
-  bottom: 0;
-  left: 50%;
-  height: 1px;
-  width: 70px;
-  content: " ";
-  margin-left: -35px;
-  position: absolute;
-  background: #AAF5B4;  
-}
-
 .title p {
   font-size: 17px;
   font-weight: 200;
-}
-
-/*Heading Titles v1-contact*/
-.title-contact {
-  z-index: 1;
-  position: relative;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
 }
 
 /*Forms
@@ -636,7 +553,8 @@ i.icon-bg-u {
 ------------------------------------*/
 /*Images*/
 img.img-bordered {
-  padding: 3px;
+  margin-top: 15px;
+  padding-top: 25px;
   border: solid 1px #eee;
 }
 
@@ -652,124 +570,6 @@ img.image-sm {
 img.image-md {
   width: 100px;
   height: 100px;
-}
-
-/*Responsive Video*/
-.responsive-video {
-   height: 0;
-   padding-top: 1px;
-   position: relative;
-   padding-bottom: 56.25%; /*16:9*/
-}
-
-.responsive-video iframe {
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-}
-
-/*Tags v1
-------------------------------------*/
-.tags-v1 li {
-  margin: 0;
-  padding: 0; 
-}
-
-.tags-v1 li a {
-  font-size: 13px; 
-  padding: 4px 8px;
-  line-height: 32px;
-  border: solid 2px #eee;
-  border-radius: 20px !important;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;  
-}
-
-.tags-v1 li a:hover {
-  text-decoration: none;
-  border-color: #e0e0e0;
-}
-
-/*Tags v2
-------------------------------------*/
-.tags-v2 li {
-  padding: 7px 0 7px 4px;
-}
-
-.tags-v2 li a {
-  color: #555;
-  font-size: 13px;
-  padding: 5px 10px;
-  border: solid 1px #bbb;
-}
-
-.tags-v2 li a:hover {
-  color: #fff;
-  background: #555;
-  border-color: #555;
-  text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;    
-}
-
-/*Tags v3
-------------------------------------*/
-.tags-v3 li {
-  padding: 7px 0 7px 4px;
-}
-
-.tags-v3 li a {
-  color: #555;
-  font-size: 12px;
-  padding: 4px 12px;
-  border: solid 1px #eee;
-}
-
-.tags-v3 li a:hover {
-  color: #fff;
-  background: #222;
-  border-color: #222;
-  text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-/*Tags v4
-------------------------------------*/
-.tags-v4 {
-  padding-left: 0;
-  list-style: none;
-}
-
-.tags-v4 li {
-  padding: 3px 2px;
-  line-height: 28px;
-  display: inline-block;
-}
-
-.tags-v4 a {
-  color: #bbb;
-  font-size: 13px;
-  font-weight: 400;
-  padding: 4px 10px;
-  border: 1px solid #bbb;
-}
-
-.tags-v4 a:hover {
-  color: #fff;
-  background: #e74c3c;
-  border-color: #e74c3c;
-  text-decoration: none;
-  -webkit-transition: all 0.25s, -webkit-transform 0.25s;
-  transition: all 0.25s, transform 0.25s;
 }
 
 /*Lists
@@ -861,31 +661,6 @@ img.image-md {
 
 .no-padding-bottom {
   padding-bottom: 0 !important;
-}
-
-.content-xs {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.content {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.content-sm {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.content-md {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.content-lg {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .space-lg-hor {

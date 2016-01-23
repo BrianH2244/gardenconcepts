@@ -1,12 +1,3 @@
-/* Reset */
-
-html { font-size: 62.5%; }
-body { font-size: 14px; font-size: 1.4rem; } /* =14px */
-h1   { font-size: 26px; font-size: 2.6rem; } /* =24px */
-h2   { font-size: 20px; font-size: 2.0rem; } /* =20px */
-p    { font-size: 16px; font-size: 1.6rem; } /* =16px */
-footer p { font-size: 14px; font-size: 1.4rem; } /* =14px */
-
 /* Custom Changes */
 
 body {
@@ -14,86 +5,74 @@ body {
   font-weight: 400;
 }
 
-h1 {
-    display: block;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align:center;
-}
-
-h2 {
-    display: block;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 h3 {
-    font-weight:600;
+  font-weight:600;
 }
 
 p {
-    font-size: 16px;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border-top: 5px solid #AAF5B4;
-    margin-bottom: -1px;
-    margin-top:0;
-    padding: 0;
-}
-
-.page-break-flower-icon {
-  height:30px;
-  color: #AAF5B4;
-  margin-bottom:-30px;
-  padding:0;
-  margin: 0 auto;
-  margin-bottom: -4px;
-  background: url(../img/patterns/GCflower.jpg) no-repeat;
-  background-position: center;
-}
-
-option {
-    color:white;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* Disables Anchor Text on Phone Numbers */
 
 span.disabledAnchor a {
-       pointer-events: none !important;
-       cursor: default;
-       color:white;
+  pointer-events: none !important;
+  cursor: default;
+  color:white;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
+}
+
+.img-left {
+  float: left;
 }
 
 .clear-both {
-    clear:both;
+  clear:both;
 }
 
 .center-block {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .title-services {
   color: #fff;
-  font-size: 24px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
-.portfolio-top-padding {
-    padding-top:40px;
+.title-contact {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* Section Spacing */
+
+#about {
+  padding-top: 80px;
+  padding-bottom: 5%;
+    h2 {
+      margin-top: 0;
+    }
+}
+
+#services {
+  padding-top: 80px;
+  padding-bottom: 5%;
+  color: white;
+}
+
+#portfolio {
+  padding-top: 80px;
+  padding-bottom: 5%;
+}
+
+#contact {
+  padding-top: 80px;
+  padding-bottom: 15%;
+  color: white;
 }
