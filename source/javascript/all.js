@@ -10,4 +10,3 @@
 //= require "_jqBootstrapValidation.js"
 //= require "_contact_me.js"
 //= require "_smooth-scroll.js"
-//= require "_analytics.js"
