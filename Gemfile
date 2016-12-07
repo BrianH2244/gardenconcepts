@@ -14,7 +14,7 @@ gem "middleman-deploy"
 gem "bootstrap-sass", require: false
 gem "jquery-middleman"
 
-gem 'middleman-search_engine_sitemap'
+gem 'middleman-vcs-time'
 
 gem 'font-awesome-sass', '~> 4.2.0'
 gem 'middleman-minify-html', '~>  3.4.1'
