@@ -12,7 +12,7 @@
     });
 
     // Activates floating label headings for the contact form.
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
+    $("home").on("input propertychange", ".floating-label-form-group", function(e) {
         $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
     }).on("focus", ".floating-label-form-group", function() {
         $(this).addClass("floating-label-form-group-with-focus");
@@ -26,7 +26,7 @@
     });
 
     // Scrollspy: Highlights the navigation menu items while scrolling.
-    $('body').scrollspy({
+    $('home').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
     })
