@@ -57,8 +57,6 @@
 .services-background-image {
     z-index: 1;
     height: auto;
-    margin-top:0;
-    padding: 40px 0 80px;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -112,7 +110,7 @@
 
 .service-box-v1 li {
   margin: 8px 0;
-  font-size: 15px;
+  font-size: 14px; font-size: 1.4rem;
   padding-top: 8px;
   border-top: dotted 1px #AAF5B4;
 }

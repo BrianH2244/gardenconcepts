@@ -25,11 +25,6 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.title p {
-  font-size: 17px;
-  font-weight: 200;
-}
-
 /*Forms
 ------------------------------------*/
 .form-control {
@@ -53,7 +48,7 @@ a:focus {
 .btn-u {
    border: 0;
    color: #fff;
-   font-size: 14px;
+   font-size: 18px;
    cursor: pointer;
    font-weight: 400;
    padding: 6px 13px;
@@ -205,7 +200,6 @@ i.icon-bg-u {
 }
 
 .service-block p {
-    font-size:14px;
     line-height: 1.6em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -226,7 +220,7 @@ i.icon-bg-u {
 
 .service-block-default p,
 .service-block-default h2 {
-  color: #555;
+  color: #666;
 }
 
 /*Typography

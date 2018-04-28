@@ -1,18 +1,9 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
-  color: #555;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
 
 
 p,
 li,
 li a {
-  color: #555;
+  color: #666;
 }
 
 a {
@@ -88,7 +79,6 @@ hr.title {
 
 /*Navbar Logo*/
 .one-page-header .navbar-brand {
-  font-size: 31px;
   font-weight: 200;
   line-height: 15px;
   padding: 0;
@@ -125,7 +115,6 @@ hr.title {
 .one-page-header .navbar-toggle .icon-bar {
   height: 1px;
   width: 25px;
-  font-size: 22px;
   background: #fff;
   margin-bottom: 7px;
 }
@@ -145,14 +134,14 @@ hr.title {
 
 .one-page-header .navbar-nav > li > a {
   color: #eee;
-  font-size: 12.5px;
+  font-size: 12px; font-size: 1.2rem;
   text-transform: uppercase;
-  padding: 17px 15px 13px;
+  padding: 17px 25px 13px;
 }
 
 .one-page-header .navbar-nav > li > a:before {
   left: -3px;
-  top: 15px;
+  top: 17px;
   z-index: 2;
   color: #eee;
   font-size: 4px;
@@ -312,7 +301,6 @@ hr.title {
   }
   .one-page-header .dropdown-menu > li > a {
     color: #fff;
-    font-size: 13px;
     font-weight: 400;
     padding: 6px 25px;
   }
@@ -377,9 +365,14 @@ hr.title {
   text-align: center;
 }
 
+.cube-portfolio #filters-container .cbp-filter-item {
+  font-size: 16px;
+}
+
 .cube-portfolio #filters-container .cbp-filter-item-active {
   background: #AAF5B4;
   border-color: #AAF5B4;
+  font-size: 16px;
 }
 
 .cube-portfolio .cbp-l-filters-button .cbp-filter-counter {
@@ -391,6 +384,10 @@ hr.title {
   border-top-color: #AAF5B4;
 }
 
+.cube-portfolio .cbp-l-loadMore-button .cbp-l-loadMore-button-link {
+  font-size: 16px;
+}
+
 .promo-section {
   top:25%;
   text-align: center;
@@ -400,14 +397,13 @@ hr.title {
 .promo-text {
   color: #AAF5B4;
   position: relative;
-  font-size: 32px;
+  font-size: 32px; font-size: 3.2rem;
   font-weight: 400;
   padding-top: 2%;
 }
 
 @media (max-width: 600px) {
   .promo-text {
-    font-size: 18px;
     line-height: 1.4;
     margin-bottom: 20px;
   }

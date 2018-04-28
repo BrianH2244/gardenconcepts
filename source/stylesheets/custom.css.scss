@@ -1,11 +1,28 @@
 /* Custom Changes */
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html { font-size: 62.5%; }
+body { font-size: 16px; font-size: 1.6rem; } /* =14px */
+h2   { font-size: 42px; font-size: 4.2rem; } /* =50px */
+h3   { font-size: 22px; font-size: 2.2rem; } /* =24px */
+h4   { font-size: 18px; font-size: 1.8rem; } /* =20px */
+h6   { font-size: 16px; font-size: 1.6rem; } /* =18px */
+p    { font-size: 16px; font-size: 1.6rem; } /* =16px */
+footer p { font-size: 14px; font-size: 1.4rem; } /* =14px */
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  color: #666;
+  line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   color: #555;
 }
 
@@ -16,14 +33,13 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
 }
 
 h3 {
-  font-size: 24px;
+  font-weight:600;
   line-height: 33px;
   text-transform: uppercase;
 }
@@ -33,25 +49,10 @@ h4 {
   line-height: 33px;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
 /*Services Section*/
-
-.services-section {
-  margin-bottom:0;
-  padding-bottom:0;
-}
 
 .services-section h2{
   color: white;
-}
-
-.services-section li {
-    padding-right:0;
-    margin-right:0;
 }
 
 .services-section li {
@@ -65,7 +66,6 @@ p {
   color: #fff;
   padding-top: 35px;
   padding-bottom: 60px;
-  font-size: 15px;
   text-align: left;
 }
 
@@ -75,14 +75,13 @@ p {
 
 .contacts-section h4 {
   color: #fff;
-  font: 26px "Open Sans",sans-serif;
+  font: 26px 'Open Sans',sans-serif;
   padding-top: 0;
   padding-bottom: 10px;
 }
 
 .contacts-section h6 {
   color: #fff;
-  font-size: 18px;
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -90,7 +89,6 @@ p {
 
 .contacts-section p {
   color: #fff;
-  font-size: 18px;
   font-weight: 400;
   text-align: left;
   padding-top: 10px;
@@ -98,7 +96,6 @@ p {
 
 .contacts-side-address p {
   color: #fff;
-  font-size: 16px;
   font-weight: 400;
   text-align: left;
   padding: 0;
@@ -163,7 +160,7 @@ span.disabledAnchor a {
 
 #about {
   padding-top: 80px;
-  padding-bottom: 5%;
+  padding-bottom: 80px;
     h3 {
       margin-top: 0;
     }
@@ -171,17 +168,17 @@ span.disabledAnchor a {
 
 #services {
   padding-top: 80px;
-  padding-bottom: 5%;
+  padding-bottom: 80px;
   color: white;
 }
 
 #portfolio {
   padding-top: 80px;
-  padding-bottom: 5%;
+  padding-bottom: 80px;
 }
 
 #contact {
   padding-top: 80px;
-  padding-bottom: 15%;
+  padding-bottom: 80px;
   color: white;
 }
